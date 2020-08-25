@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "leaf.snowflake.enable",
+      "type": "java.lang.String",
+      "description": "whether snowflake mode is enabled."
+    },
+    {
+      "name": "leaf.snowflake.port",
+      "type": "java.lang.String",
+      "description": "service registration port under snowflake mode."
+    },
+    {
+      "name": "leaf.snowflake.address",
+      "type": "java.lang.String",
+      "description": "zk address under snowflake mode."
+    }
+  ] }

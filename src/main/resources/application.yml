@@ -1,0 +1,14 @@
+server:
+  port: ${SERVER_PORT:31000}
+spring:
+  application:
+    name: id-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS_ADDRESS:192.168.10.42:8848}
+leaf:
+  snowflake:
+    enable: true
+    port: 2182
+    address: 192.168.10.42:2181
